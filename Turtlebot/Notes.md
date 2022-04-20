@@ -11,8 +11,9 @@ These steps are necessary if you need to connect a PC and Turtlebot to a new net
 1) Remove the Turtlebot's onboard Raspberry Pi micro SD card and insert it onto a PC.  
 2) Open a new terminal and navigate to `cd /media/$USER/writable/etc/netplan`. If this path does not exist you will have to manually mount the micro SD card.
 3) Edit the network file with `sudo nano 50-cloud-init.yaml`.
-4) When the editor is opened, replace the WIFI_SSID and WIFI_PASSWORD with your wifi SSID and password (see below). Save and exit the file, close the terminal, and return the Raspberry Pi's memory card to the Turtlebot.
+4) When the editor is opened, replace the WIFI_SSID and WIFI_PASSWORD with your wifi SSID and password (see below). Save and exit the file, close the terminal, and return the Raspberry Pi's memory card to the Turtlebot.  
   
+![Turtlebot Network Configuration](turtlebotNetworkConfig.jpg)  
   
 ## Connecting to new host PC 
 These steps are necessary if you need to connect a new PC to the Turtlebot over an already configured network. The following steps assume the PC and Turtlebot are connected to the same network.
@@ -44,5 +45,5 @@ Assuming the turtlebot is on.
 The Turtlebot is now able to communicate with ROS on the remote PC.
 
 ## Teleoperation
-13) In a new terminal, `export TURTLEBOT3_MODEL=${TB3_MODEL}`  
+13) In a new terminal on the remote PC, `export TURTLEBOT3_MODEL=${TB3_MODEL}`  
 14) `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`  

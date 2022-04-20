@@ -40,7 +40,8 @@ In the terminal of the host or remote PC:
 Assuming the turtlebot is on.  
 10) Run `roscore` on the remote PC.  
 11) Connect to the Turtlebot using `ssh ubuntu@{IP_ADDRESS_OF_PI}` and then the password `turtlebot`.  
-12) Using the same terminal, bringup basic packages to start Turtlebot3 applications for remote control `roslaunch turtlebot3_bringup turtlebot3_robot.launch`.  
+12) Using the same terminal, bringup basic packages to start Turtlebot3 applications for remote control `roslaunch turtlebot3_bringup turtlebot3_robot.launch`.  (for noetic: first `export TURTLEBOT3_MODEL=${TB3_MODEL}` then `roslaunch turtlebot3_bringup turtlebot3_robot.launch`) 
+
   
 The Turtlebot is now able to communicate with ROS on the remote PC.
 

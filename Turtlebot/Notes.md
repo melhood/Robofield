@@ -48,3 +48,8 @@ The Turtlebot is now able to communicate with ROS on the remote PC.
 ## Teleoperation
 13) In a new terminal on the remote PC, `export TURTLEBOT3_MODEL=${TB3_MODEL}`  
 14) `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`  
+
+## USB Camera
+
+15) ssh into turtlebot and `rosrun cv_camera cv_camera_node _property_0_code:=404 _property_0_value:=1` (https://github.com/OTL/cv_camera)
+16) in remote pc `rqt_image_view`

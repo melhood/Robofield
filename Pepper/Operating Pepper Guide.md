@@ -3,7 +3,7 @@
 # Connecting to Pepper
 1) Connect and power pepper through the power cord avialble.
 
-  ![](p3.jpg)
+   ![Turtlebot Power Cord Plugged](p3.jpg)
   
 2) Plug a ethernet cable connecting pepper and a PC/Laptop (with Choregraphe).
 3) Go to settings for wired connection on device connected to pepper with ethernet.

@@ -2,7 +2,7 @@
 
 1) Navigate to https://www.softbankrobotics.com/emea/en/support/pepper-naoqi-2-9/downloads-softwares, take note of the installation key and download the Linux Setup package.  
   
-![Choregraphe Installation Package](ChoregrapheInstall.jpg)  
+![Choregraphe Installation Package](Images/ChoregrapheInstall.jpg)  
   
 2) In a new terminal begin installation with `chmod +x choregraphe-suite-x.x-linux64-setup.run` and then `sudo ./choregraphe-suite-x.x-linux64-setup.run`. Please note that `choregraphe-suite-x.x` would be `choregraphe-suite-2.5.10` in this particular example.
   

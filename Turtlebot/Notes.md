@@ -13,7 +13,7 @@ These steps are necessary if you need to connect a PC and Turtlebot to a new net
 3) Edit the network file with `sudo nano 50-cloud-init.yaml`.
 4) When the editor is opened, replace the WIFI_SSID and WIFI_PASSWORD with your wifi SSID and password (see below). Save and exit the file, close the terminal, and return the Raspberry Pi's memory card to the Turtlebot.  
   
-![Turtlebot Network Configuration](turtlebotNetworkConfig.jpg)  
+![Turtlebot Network Configuration](Images/turtlebotNetworkConfig.jpg)  
   
 ## Connecting to new host PC 
 These steps are necessary if you need to connect a new PC to the Turtlebot over an already configured network. The following steps assume the PC and Turtlebot are connected to the same network.

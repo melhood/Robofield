@@ -48,3 +48,21 @@
 8) Once connection is established, you are free to explore the features or add your own program.
    
    ![Exploring Choregraphe](Images/pp2.png)
+
+# Working with Virtual Pepper
+
+1) When you want to work on the Pepper robot remotely, a virtual robot can be uploaded. After installing Choregraphe, by default, it will show up a different robot. To load pepper: 
+   a) go to edit
+   b) -> Virtual Robot
+   c) -> Select the 'Robot model' from the dropdown menu
+   d) -> press ok
+   
+   ![Loading Virtual Pepper](Images/LoadingPepper.png)
+   
+   e) -> A popup may appear requesting user to restart. Click ok
+   
+   ![Restart popup](Images/LoadingPepperRestart.png)
+   
+   f) Under the tabs, click Connect -> Connect to virtual robot
+   
+   ![Connect to virtual robot](Images/Connect.png)

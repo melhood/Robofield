@@ -37,7 +37,7 @@
    
    ![wired connection settings](Images/pp3.png)
    
-6) Open new terminal to check connection with Pepper `ping 169.254.180.154` (this IP address belogs to Pepper)
+6) Open new terminal to check connection with Pepper `ping 169.254.180.154` (this IP address belongs to Pepper)
    
    ![ping](Images/pp1.png)
 

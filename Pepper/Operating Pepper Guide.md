@@ -66,3 +66,7 @@
    f) Under the tabs, click Connect -> Connect to virtual robot
    
    ![Connect to virtual robot](Images/Connect.png)
+   
+2) Notes on working with Virtual Robot obtained from http://doc.aldebaran.com/2-4/dev/tools/robot-simulation.html
+
+   ![Simulated Robots table](Images/SimulatedPepper.png)

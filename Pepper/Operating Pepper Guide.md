@@ -42,8 +42,8 @@
    ![ping](Images/pp1.png)
 
 7) Open Choregraphe and connect on the application to Pepper.
-  (will screenshot and input image for reference next time)
+  ![Connecting on Choregraphe](Images/pp5.png)
 
 8) Once connection is established, you are free to explore the features or add your own program.
    
-   ![wired connection settings](Images/pp2.png)
+   ![Exploring Choregraphe](Images/pp2.png)

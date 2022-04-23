@@ -8,7 +8,8 @@
   
 3) Complete the installation wizard using the installation key from the previous website.  
   
-4) Run the application from system applications, from your desktop or through `Choregraphe` in terminal. If the application does not boot properly a library link might not have been added during installation. To remedy the issue type this command in terminal `sudo ln -sf /usr/lib/x86_64-linux-gnu/libz.so /opt/'Softbank Robotics'/'Choregraphe Suite 2.5'/lib/libz.so.1`. If the command doesn't work, try again but tab through the directories appropriate to your computer. This solution worked for Ubuntu 18.04 and 20.04 and was available at https://stackoverflow.com/questions/54450088/choregraphe-software-doesnt-launch.  
+4) Run the application from system applications, from your desktop or through `Choregraphe` in terminal. If the application does not boot properly a library link might not have been added during installation. To remedy the issue type this command in terminal `sudo ln -sf /usr/lib/x86_64-linux-gnu/libz.so /opt/Softbank\ Robotics/lib/libz.so.1`. If the command doesn't work, try again but tab through the directories appropriate to your computer. This solution worked for Ubuntu 18.04 and 20.04 and was available at https://stackoverflow.com/questions/54450088/choregraphe-software-doesnt-launch.
+  
   
 5) You should now be able to start the Choregraphe software!  
   

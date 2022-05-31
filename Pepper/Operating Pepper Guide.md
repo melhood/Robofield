@@ -53,7 +53,7 @@
 # Working with Virtual Pepper
 
 1) When you want to work on the Pepper robot remotely, a virtual robot can be uploaded. After installing Choregraphe, by default, it will show up a different robot. To load pepper: 
-   a) go to edit
+   a) go to edit preferences
    b) -> Virtual Robot
    c) -> Select the 'Robot model' from the dropdown menu
    d) -> press ok

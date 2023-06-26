@@ -91,6 +91,8 @@ The tablet screen should display the Android settings.
 
 ![Pepper Settings](Images/Pepper%20Settings.jpg)  
 
+If this doesn't work (for some odd reason) there is an alternative solution, this [app](https://github.com/LilithWittmann/pepper-tablet-jailbreak) jailbreaks the tablet by killing some of the Pepper services and initiating the Android shell. To execute the app, navigate to `PepperHack` > `PepperHack.pml`.
+
 Browse for `Home` and change the default launcher to `Launcher3`. 
 
 ![Pepper Home Launcher](Images/Home%20Launcher.jpg)  

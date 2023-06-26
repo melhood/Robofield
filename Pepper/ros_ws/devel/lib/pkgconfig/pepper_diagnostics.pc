@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: pepper_diagnostics
+Description: Description of pepper_diagnostics
+Version: 1.1.8
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/install
+
+Name: pal_common_msgs
+Description: Description of pal_common_msgs
+Version: 0.11.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs std_msgs message_runtime

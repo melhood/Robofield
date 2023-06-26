@@ -1,0 +1,17 @@
+# Command to be executed
+string cmd
+# Command name for GUI related purposes
+string cmd_name
+# Command description for GUI related purposes
+string cmd_description
+---
+# Convenient check, true if ret_val == 0
+bool success
+# Self explanatory
+int32 ret_val
+string stdout
+string stderr
+---
+# Command stdout and stderr up until now
+string stdout
+string stderr

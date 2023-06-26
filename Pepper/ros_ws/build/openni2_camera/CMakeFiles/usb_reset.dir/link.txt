@@ -1,0 +1,1 @@
+/usr/lib/ccache/cc   -rdynamic CMakeFiles/usb_reset.dir/src/usb_reset.c.o  -o /home/nhantastrew/Workspaces/pepper_ws/devel/lib/openni2_camera/usb_reset 

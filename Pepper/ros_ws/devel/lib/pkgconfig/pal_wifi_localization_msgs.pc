@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: pal_wifi_localization_msgs
+Description: Description of pal_wifi_localization_msgs
+Version: 0.11.3
+Cflags: -I/home/nhantastrew/Workspaces/pepper_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime nav_msgs geometry_msgs

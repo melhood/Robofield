@@ -1,0 +1,27 @@
+## ! DO NOT MANUALLY INVOKE THIS setup.py, USE CATKIN INSTEAD
+
+from distutils.core import setup
+from catkin_pkg.python_setup import generate_distutils_setup
+
+# fetch values from package.xml
+setup_args = generate_distutils_setup(
+    packages=[
+        'magic_listen',
+        'magic_listen.grammars',
+        'magic_listen.grammars.abnf',
+        'magic_listen.grammars.core',
+        'magic_listen.infrastructure',
+        'magic_listen.infrastructure.clib',
+        'magic_listen.ros'
+    ],
+    package_dir={'': 'src'},
+
+    package_data={
+        'magic_listen.grammars': ['*.dict'],
+        'magic_listen.infrastructure': ['*.json'],
+        'magic_listen.infrastructure.model': ['*.dict', '*.bin'],
+        'magic_listen.infrastructure.model.en-us': ['*']
+    }
+)
+
+setup(**setup_args)

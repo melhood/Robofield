@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+'''
+This utility will play audio (i.e., to the speakers) that is being published on the /opus_frames topic.
+'''
+import Queue
+
+import rospy
+from magic_listen.msg import ListenFrame
+from magic_listen.msg import ListenControl
+
+import magic_listen.infrastructure.opus_decoder as opus_decoder
+import magic_listen.infrastructure.pulse_player as pulse_player
+
+NODE_NAME = 'magic_listen_play'
+OPUS_TOPIC = 'listen_frames_compressed'
+CONTROL_TOPIC = 'listen_control'
+
+_play_queue = Queue.Queue()
+
+rospy.init_node(NODE_NAME)
+
+def ros_callback(message):
+    global _play_queue
+    audio = opus_decoder.decode(bytearray(message.data))
+    _play_queue.put(audio)
+
+# Startup
+opus_decoder.start()
+pulse_player.start(NODE_NAME)
+
+# Put the capture into "monitor mode"
+control = rospy.Publisher(CONTROL_TOPIC, ListenControl, latch=True, tcp_nodelay=True, queue_size=10)
+start = ListenControl()
+start.command = ListenControl.MONITOR
+start.id = 1
+control.publish(start)
+
+# Subscribe and await messages
+rospy.Subscriber(OPUS_TOPIC, ListenFrame, ros_callback, tcp_nodelay=True)
+while not rospy.is_shutdown():
+    try:
+        audio = _play_queue.get(timeout=0.4)
+        pulse_player.play(audio)
+    except Queue.Empty:
+        pass
+
+# Shutdown cleanly
+pulse_player.stop()
+opus_decoder.stop()

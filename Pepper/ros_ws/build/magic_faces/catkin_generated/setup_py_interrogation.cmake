@@ -1,0 +1,7 @@
+set(magic_faces_SETUP_PY_SETUP_MODULE "distutils.core")
+set(magic_faces_SETUP_PY_VERSION "0.3.0")
+set(magic_faces_SETUP_PY_SCRIPTS "")
+set(magic_faces_SETUP_PY_PACKAGES "magic_faces")
+set(magic_faces_SETUP_PY_PACKAGE_DIRS "src/magic_faces")
+set(magic_faces_SETUP_PY_MODULES "")
+set(magic_faces_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,2 @@
+set(magic_speak_MESSAGE_FILES "msg/SpeakControl.msg;msg/SpeakResult.msg")
+set(magic_speak_SERVICE_FILES "")

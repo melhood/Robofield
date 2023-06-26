@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>magic_navigation</name>
+  <version>0.0.0</version>
+  <description>The magic_navigation package</description>
+
+  <maintainer email="su.w.leong@student.uts.edu.au">Suwen Leong</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- <depend>sbpl_lattice_planner</depend> -->
+  <!-- <depend>moveback_recovery</depend> -->
+  <depend>rotate_recovery</depend>
+  <depend>clear_costmap_recovery</depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>mbf_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>magic_ros</build_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>magic_ros</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>mbf_msgs</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>magic_ros</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>mbf_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+
+  <!-- For object detection pcl -->
+  <build_depend>libpcl-all-dev</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+
+  <exec_depend>libpcl-all</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+  </export>
+
+</package>

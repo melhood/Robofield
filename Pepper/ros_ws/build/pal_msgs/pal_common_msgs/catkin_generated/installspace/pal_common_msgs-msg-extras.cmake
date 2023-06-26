@@ -1,0 +1,2 @@
+set(pal_common_msgs_MESSAGE_FILES "msg/DisableAction.msg;msg/DisableActionGoal.msg;msg/DisableActionResult.msg;msg/DisableActionFeedback.msg;msg/DisableGoal.msg;msg/DisableResult.msg;msg/DisableFeedback.msg;msg/EmptyAction.msg;msg/EmptyActionGoal.msg;msg/EmptyActionResult.msg;msg/EmptyActionFeedback.msg;msg/EmptyGoal.msg;msg/EmptyResult.msg;msg/EmptyFeedback.msg;msg/JointCurrent.msg")
+set(pal_common_msgs_SERVICE_FILES "")

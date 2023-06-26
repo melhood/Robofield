@@ -1,0 +1,7 @@
+set(magic_grasp_SETUP_PY_SETUP_MODULE "distutils.core")
+set(magic_grasp_SETUP_PY_VERSION "1.2.1")
+set(magic_grasp_SETUP_PY_SCRIPTS "")
+set(magic_grasp_SETUP_PY_PACKAGES "magic_grasp")
+set(magic_grasp_SETUP_PY_PACKAGE_DIRS "src/magic_grasp")
+set(magic_grasp_SETUP_PY_MODULES "")
+set(magic_grasp_SETUP_PY_MODULE_DIRS "")

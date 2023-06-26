@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/install
+
+Name: pepper_bringup
+Description: Description of pepper_bringup
+Version: 0.1.10
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

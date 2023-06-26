@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: pepper_time_updater
+Description: Description of pepper_time_updater
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

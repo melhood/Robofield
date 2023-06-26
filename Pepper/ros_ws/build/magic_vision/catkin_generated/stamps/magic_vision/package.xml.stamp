@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>magic_vision</name>
+  <version>0.2.5</version>
+  <description>
+  This package provides convenient access to all computer vision packages.
+  </description>
+
+  <maintainer email="TheDuc.Vu@student.uts.edu.au">Duc Vu</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>magic_ros</exec_depend>
+  <depend>magic_msgs</depend>
+  <depend>magic_faces</depend>
+  <depend>magic_poses</depend>
+  <depend>dark_magic</depend>
+
+</package>

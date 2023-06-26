@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: linear_depth_scaler
+Description: Description of linear_depth_scaler
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp nodelet image_transport

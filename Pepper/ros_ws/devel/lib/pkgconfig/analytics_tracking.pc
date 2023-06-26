@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: analytics_tracking
+Description: Description of analytics_tracking
+Version: 1.1.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

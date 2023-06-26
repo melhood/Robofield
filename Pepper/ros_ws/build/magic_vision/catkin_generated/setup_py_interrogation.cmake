@@ -1,0 +1,7 @@
+set(magic_vision_SETUP_PY_SETUP_MODULE "distutils.core")
+set(magic_vision_SETUP_PY_VERSION "0.2.5")
+set(magic_vision_SETUP_PY_SCRIPTS "")
+set(magic_vision_SETUP_PY_PACKAGES "magic_vision")
+set(magic_vision_SETUP_PY_PACKAGE_DIRS "src/magic_vision")
+set(magic_vision_SETUP_PY_MODULES "")
+set(magic_vision_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/install
+
+Name: naoqi_magic_wrappers
+Description: Description of naoqi_magic_wrappers
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

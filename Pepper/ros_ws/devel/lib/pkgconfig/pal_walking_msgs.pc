@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: pal_walking_msgs
+Description: Description of pal_walking_msgs
+Version: 0.11.3
+Cflags: -I/home/nhantastrew/Workspaces/pepper_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs humanoid_nav_msgs message_runtime

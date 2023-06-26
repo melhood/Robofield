@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: magic_hri
+Description: Description of magic_hri
+Version: 0.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

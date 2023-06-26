@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/install
+
+Name: pal_behaviour_msgs
+Description: Description of pal_behaviour_msgs
+Version: 0.11.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs actionlib_msgs

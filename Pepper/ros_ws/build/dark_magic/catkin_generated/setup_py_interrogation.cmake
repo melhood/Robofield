@@ -1,0 +1,7 @@
+set(dark_magic_SETUP_PY_SETUP_MODULE "distutils.core")
+set(dark_magic_SETUP_PY_VERSION "0.0.1")
+set(dark_magic_SETUP_PY_SCRIPTS "")
+set(dark_magic_SETUP_PY_PACKAGES "dark_magic")
+set(dark_magic_SETUP_PY_PACKAGE_DIRS "src/dark_magic")
+set(dark_magic_SETUP_PY_MODULES "")
+set(dark_magic_SETUP_PY_MODULE_DIRS "")

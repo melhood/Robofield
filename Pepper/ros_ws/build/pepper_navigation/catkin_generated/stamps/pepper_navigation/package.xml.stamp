@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>pepper_navigation</name>
+  <version>1.0.0</version>
+  <description>UTS unleashed pepper navigation package</description>
+
+  <author>Suwen Leong</author>
+  <maintainer email="su.w.leong@student.uts.edu.au">Suwen Leong</maintainer>
+  <maintainer email="Sammy.Pfeiffer@student.uts.edu.au">Sam Pfeiffer</maintainer>
+  <maintainer email="Syed.A.Raza@student.uts.edu.au">Syed Ali Raza</maintainer>
+
+  <license>BSD</license>
+  <run_depend>gmapping</run_depend>
+  <run_depend>pepper_bringup</run_depend>
+  <test_depend>rostest</test_depend>
+  <test_depend>roslaunch</test_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

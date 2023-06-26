@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: magic_ros
+Description: Description of magic_ros
+Version: 1.0.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: magic_msgs

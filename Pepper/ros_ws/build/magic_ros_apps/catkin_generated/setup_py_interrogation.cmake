@@ -1,0 +1,7 @@
+set(magic_ros_apps_SETUP_PY_SETUP_MODULE "distutils.core")
+set(magic_ros_apps_SETUP_PY_VERSION "1.0.0")
+set(magic_ros_apps_SETUP_PY_SCRIPTS "")
+set(magic_ros_apps_SETUP_PY_PACKAGES "magic_ros_apps")
+set(magic_ros_apps_SETUP_PY_PACKAGE_DIRS "src/magic_ros_apps")
+set(magic_ros_apps_SETUP_PY_MODULES "")
+set(magic_ros_apps_SETUP_PY_MODULE_DIRS "")

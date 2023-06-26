@@ -1,0 +1,2 @@
+set(magic_speak_MESSAGE_FILES "/home/nhantastrew/Workspaces/pepper_ws/src/magic_speak/msg/SpeakControl.msg;/home/nhantastrew/Workspaces/pepper_ws/src/magic_speak/msg/SpeakResult.msg")
+set(magic_speak_SERVICE_FILES "")

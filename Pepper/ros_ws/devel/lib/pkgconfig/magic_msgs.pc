@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: magic_msgs
+Description: Description of magic_msgs
+Version: 1.0.1
+Cflags: -I/home/nhantastrew/Workspaces/pepper_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

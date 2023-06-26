@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: command_executer
+Description: Description of command_executer
+Version: 0.0.1
+Cflags: -I/home/nhantastrew/Workspaces/pepper_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs

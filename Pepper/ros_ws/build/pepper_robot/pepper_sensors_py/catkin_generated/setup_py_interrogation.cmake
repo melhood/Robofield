@@ -1,0 +1,7 @@
+set(pepper_sensors_py_SETUP_PY_SETUP_MODULE "distutils.core")
+set(pepper_sensors_py_SETUP_PY_VERSION "0.1.10")
+set(pepper_sensors_py_SETUP_PY_SCRIPTS "nodes/camera.py;nodes/laser.py")
+set(pepper_sensors_py_SETUP_PY_PACKAGES "pepper_sensors")
+set(pepper_sensors_py_SETUP_PY_PACKAGE_DIRS "src/pepper_sensors")
+set(pepper_sensors_py_SETUP_PY_MODULES "")
+set(pepper_sensors_py_SETUP_PY_MODULE_DIRS "")

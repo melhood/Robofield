@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: magic_vision
+Description: Description of magic_vision
+Version: 0.2.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: magic_msgs

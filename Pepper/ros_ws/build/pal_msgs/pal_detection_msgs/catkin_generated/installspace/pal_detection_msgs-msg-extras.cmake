@@ -1,0 +1,2 @@
+set(pal_detection_msgs_MESSAGE_FILES "msg/Detection2d.msg;msg/Detections2d.msg;msg/FaceDetection.msg;msg/FaceDetections.msg;msg/Gesture.msg;msg/LegDetections.msg;msg/PersonDetection.msg;msg/PersonDetections.msg;msg/RecognizedActions.msg;msg/RotatedDetection2d.msg;msg/TexturedObjectDetection.msg;msg/WaveDetection.msg;msg/MagicDetection.msg;msg/MagicDetections.msg")
+set(pal_detection_msgs_SERVICE_FILES "srv/AddTexturedObject.srv;srv/SelectTexturedObject.srv;srv/Recognizer.srv;srv/SetDatabase.srv;srv/StartEnrollment.srv;srv/StopEnrollment.srv")

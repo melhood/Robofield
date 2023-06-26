@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: mbf_abstract_core
+Description: Description of mbf_abstract_core
+Version: 0.4.0
+Cflags: -I/home/nhantastrew/Workspaces/pepper_ws/src/move_base_flex/mbf_abstract_core/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs geometry_msgs

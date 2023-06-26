@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: openni2_camera
+Description: Description of openni2_camera
+Version: 0.2.7
+Cflags: -I/home/nhantastrew/Workspaces/pepper_ws/devel/include -I/home/nhantastrew/Workspaces/pepper_ws/src/openni2_camera/include
+Libs: -L${prefix}/lib -lopenni2_wrapper
+Requires: camera_info_manager dynamic_reconfigure image_transport nodelet sensor_msgs roscpp message_runtime pal_detection_msgs cv_bridge tf

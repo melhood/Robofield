@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: range_sensor_layer
+Description: Description of range_sensor_layer
+Version: 0.4.0
+Cflags: -I/home/nhantastrew/Workspaces/pepper_ws/devel/include -I/home/nhantastrew/Workspaces/pepper_ws/src/navigation_layers/range_sensor_layer/include
+Libs: -L${prefix}/lib -lrange_sensor_layer
+Requires: angles costmap_2d dynamic_reconfigure pluginlib roscpp sensor_msgs

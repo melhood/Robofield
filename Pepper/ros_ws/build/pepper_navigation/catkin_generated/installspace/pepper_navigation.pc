@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/install
+
+Name: pepper_navigation
+Description: Description of pepper_navigation
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

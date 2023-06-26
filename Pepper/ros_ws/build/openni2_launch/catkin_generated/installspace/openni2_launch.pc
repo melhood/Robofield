@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/install
+
+Name: openni2_launch
+Description: Description of openni2_launch
+Version: 0.2.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

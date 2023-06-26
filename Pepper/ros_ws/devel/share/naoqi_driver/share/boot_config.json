@@ -1,0 +1,97 @@
+
+{
+  "converters":
+  {
+    "front_camera":
+    {
+      "enabled"       : true,
+      "resolution"    : 1,
+      "fps"           : 10,
+      "recorder_fps"  : 0
+    },
+    "bottom_camera":
+    {
+      "enabled"       : true,
+      "resolution"    : 1,
+      "fps"           : 10,
+      "recorder_fps"  : 0
+    },
+    "depth_camera":
+    {
+      "enabled"       : true,
+      "resolution"    : 1,
+      "fps"           : 10,
+      "recorder_fps"  : 0
+    },
+    "ir_camera":
+    {
+      "enabled"       : false,
+      "resolution"    : 1,
+      "fps"           : 10,
+      "recorder_fps"  : 5
+    },
+    "info":
+    {
+      "enabled"       : false,
+      "frequency"     : 1
+    },
+    "logs":
+    {
+      "enabled"       : false,
+      "frequency"     : 1
+    },
+    "diag":
+    {
+      "enabled"       : false,
+      "frequency"     : 1
+    },
+    "imu_torso":
+    {
+      "enabled"       : true,
+      "frequency"     : 10
+    },
+    "imu_base":
+    {
+      "enabled"       : true,
+      "frequency"     : 10
+    },
+    "joint_states":
+    {
+      "enabled"       : true,
+      "frequency"     : 20
+    },
+    "laser":
+    {
+      "enabled"       : false,
+      "frequency"     : 10
+    },
+    "sonar":
+    {
+      "enabled"       : false,
+      "frequency"     : 10
+    },
+    "audio":
+    {
+      "enabled"       : false
+    },
+    "bumper":
+    {
+      "enabled"       : false
+    },
+    "touch_hand":
+    {
+      "enabled"       : false
+    },
+    "touch_head":
+    {
+      "enabled"       : false
+    },
+    "odom":
+    {
+      "enabled"       : false,
+      "frequency"     : 20
+    }
+  }
+}
+
+

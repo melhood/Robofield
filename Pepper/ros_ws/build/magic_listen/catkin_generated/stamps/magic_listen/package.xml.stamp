@@ -1,0 +1,19 @@
+<package format="2">
+    <name>magic_listen</name>
+    <version>0.0.15</version>
+    <description>Voice recognition capabilities using PulseAudio, Opus and Google Cloud Speech</description>
+    <maintainer email="benjamin.johnston@uts.edu.au">Benjamin Johnston</maintainer>
+    <license>UTS</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>message_generation</build_depend>
+
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>rospy</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
+    <exec_depend>message_runtime</exec_depend>
+</package>

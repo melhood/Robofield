@@ -1,0 +1,8 @@
+prefix=/home/nhantastrew/Workspaces/pepper_ws/devel
+
+Name: naoqi_driver
+Description: Description of naoqi_driver
+Version: 0.5.9
+Cflags: 
+Libs: -L${prefix}/lib -lnaoqi_driver_module -lnaoqi_driver
+Requires: 

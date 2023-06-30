@@ -123,5 +123,3 @@ If you want to play around with the design of the UI, you can change the [html](
 ![Pepper App Launcher](Images/App%20Launcher.jpg)
 
 Congratulations! Now you can launch the awesome apps that you develop without needing to connect your device. To exit an app, you can trigger Pepper's sleep mode by double clicking its chest button. Double tap the button again to wake up Pepper and it should direct you to the App Launcher menu.
-
-![Pepper Exit](Images/Exit.png)

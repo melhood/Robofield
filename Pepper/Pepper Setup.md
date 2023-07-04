@@ -118,7 +118,7 @@ Fortunately, there is an official app launcher development from SoftBank Robotic
 
 ![Pepper App Packaging](Images/Package.png)
 
-If you want to play around with the design of the UI, you can change the [html](https://github.com/softbankrobotics-labs/app-launcher/tree/master/App-Launcher/html) code at your discretion. Reboot the robot. Following the previous launching steps with the Aldebaran bootstrap loader, the app launcher should automatically run, giving access to all the in-built apps from Choreographe. The boot-up process should resemble the one [here](https://drive.google.com/file/d/1EO9krD9SXPCUJuVTQ2w_suvKQX8j57YY/view?usp=sharing).
+If you want to play around with the design of the UI, you can change the [html](https://github.com/softbankrobotics-labs/app-launcher/tree/master/App-Launcher/html) code at your discretion. An example of a customised designed can be found [here](). Reboot the robot. Following the previous launching steps with the Aldebaran bootstrap loader, the app launcher should automatically run, giving access to all the in-built apps from Choreographe. The boot-up process should resemble the one [here](https://drive.google.com/file/d/1EO9krD9SXPCUJuVTQ2w_suvKQX8j57YY/view?usp=sharing).
 
 ![Pepper App Launcher](Images/App%20Launcher.jpg)
 

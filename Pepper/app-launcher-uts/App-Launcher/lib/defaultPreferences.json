@@ -1,0 +1,23 @@
+{
+	"0":{
+		"title":{
+			"English":"U",
+			"French":"U"
+		},"apps":[
+			"product-information","shop-orientation","loyalty-program","satisfaction-survey"]
+	},
+	"1":{
+		"title":{
+			"English":"S",
+			"French":"S"
+		},"apps":
+			["check-in-7b9a99", "loyalty-program", "satisfaction-survey"]
+	},
+	"2":{
+		"title":{
+			"English":"T",
+			"French":"T"
+		},"apps":[
+		"bank-welcome", "loyalty-program", "satisfaction-survey"]
+	}
+}

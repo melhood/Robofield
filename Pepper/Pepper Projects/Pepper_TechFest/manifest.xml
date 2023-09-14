@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="pepper_techfest-bd2feb">
+ <names>
+  <name lang="en_US">UTSTechFest</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Code for activity in the Robotics Showcase at UTS Tech Fest</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="2.5" minVersion="2.5"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+ <services>
+  <service execStart="./python service.py" autorun="true" name="service"/>
+ </services>
+</package>

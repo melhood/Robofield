@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/jquery-ui.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles/main.css?v=2018" />
+  <script src="/libs/qimessaging/2/qimessaging.js"></script>
+  <script src="javascripts/polyfill.js"></script>
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/jquery-ui.min.js"></script>
+  <script>
+    window.addEventListener("error", handleError, true);
+    function handleError(evt) {
+      if (evt.message) { 
+        alert("error: "+evt.message +" at linenumber: "+evt.lineno+" of file: "+evt.filename);
+      } else {
+        alert("error: "+evt.type+" from element: "+(evt.srcElement || evt.target));
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="content">
+    <form method="post" autocomplete="off" novalidate>
+      <input type="hidden" value="" name="presentation_order" id="presentation_order" />
+      <div class="survey-group">
+
+        <!-- Tech Fest Logo -->
+        <div id="tech" class="slide survey-box">
+          <br>
+          <img src="images/Robotics Showcase UTS.png" alt="Robotics Showcase" style="height: auto; margin-top: -40px; margin-left: -25px;" width="980">
+        </div>  
+
+    </div>
+  </form>
+</div>
+<script src="javascripts/main.js?v=2018023831242"></script>
+</body>
+</html>

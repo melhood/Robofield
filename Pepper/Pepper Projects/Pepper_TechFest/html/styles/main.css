@@ -1,0 +1,536 @@
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(fonts/Raleway-Black.ttf)
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Regular.ttf)
+}
+
+body {
+    background: #f6f6f6;
+    font-family: Raleway;
+    font-size: 16pt;
+    overflow: hidden;
+}
+
+input[type="date"] {
+  display: inline-block;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-family: Raleway;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2.0em;
+}
+
+h2 {
+    font-size: 1.0em;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.padded {
+    text-align: left;
+    padding-left: 10%;
+    width: 80%;
+}
+
+.content {
+    /* width: 100%;
+    height: 90%; */
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* .survey-group {
+    display: none;
+}
+
+.survey-group:first-child {
+    display: block;
+} */
+
+.survey-box {
+    text-align: center;
+    padding: 1% 0 10px 0;
+    display: none;
+}
+
+.survey-box.active {
+    display: block;
+}
+
+.survey-box > p {
+    min-height: 50px;
+}
+
+.survey-box > .input-box {
+    min-height: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 10px;
+    width: 0vw;
+    background: #006000;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+label {
+    //margin-right: 15px;
+}
+
+input {
+    font-size: 24pt;
+    max-width: 500px;
+    width: 60%;
+}
+
+/* To change the scale of the radio buttons, and the text that accompanies it */
+input[type="radio"] {
+    transform: scale(1.75);
+    margin-right: 2.0em;
+    width: 5px;
+}
+
+/* Class to test the sizing of the radio buttons by changing the text  */
+.example {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+input[type="date"] {
+    /* font-family: Raleway; */
+    text-align: right;
+    margin-left: 30px;
+    width: 30%;
+}
+
+input[type="text"] {
+    margin-left: 20px;
+}
+
+.small-text {
+    width: 120px;
+    text-align: right;
+    /* font-family: Raleway; */
+    padding: 5px;
+}
+select {
+    max-width: 500px;
+    width: 60%;
+    height: 40px;
+    background: white;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: Raleway; */
+    font-size: 16pt;
+    opacity: 100%;
+}
+
+select:focus {
+    background: white;
+}
+
+button {
+    font-size: 24pt;
+    background-color: #022793;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.button_centre {
+  text-align: center;
+}
+
+button:disabled {
+    background-color: #a6a9b2;
+}
+
+/* input[type="radio"] {
+    margin-right: 10px;
+} */
+
+/* The container */
+.radio-container, .checkbox-container {
+    position: relative;
+    padding-left: 35px;
+    margin-left: 2%;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-container:first-of-type, .checkbox-container:first-of-type {
+  /* margin-left: 1%; */
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 16.55%; /* width: 15.5%; */
+  padding: 5px;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input, .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radio-container input ~ .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+/* Create a custom radio button */
+.checkbox-container input ~ .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark, .checkbox-container:hover input ~ .checkmark {
+    background-color: #aaa;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .checkmark, .checkbox-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    text-align: center;
+    margin: 10px;
+}
+
+/* The actual popup */
+.popuptext {
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    border: #000 1px solid;
+    padding: 10px;
+    padding-bottom: 3px;
+    margin: 0 auto;
+    display: none;
+}
+
+.likert {template
+    width: 73%;
+    margin-left: 25%;
+    text-align: justify;
+}
+
+/*.likert-long {
+    padding-left: 0%;
+    padding-right: 0%;
+} */
+
+.likert > span:first-of-type {
+    float: left;
+    font-weight: bold;
+}
+
+.likert > span:last-of-type {
+    float: right;
+    font-weight: bold;
+}
+
+.likert-radio {
+    white-space: nowrap;
+    position: absolute;
+    left: 25%;
+}
+
+[data-display-on] {
+    display: none;
+}
+
+/* Slider */
+.slidecontainer {
+  width: 80%; /* Width of the outside container */
+  align-content: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;   
+    width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    border-radius: 5px;
+    background: #ccc; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    margin-top: 9px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 40px; /* Set a specific slider handle width */
+    height: 40px; /* Slider handle height */
+    border-radius: 50%;
+    background: #2196F3; /* Blue background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 40px; /* Set a specific slider handle width */
+    height: 40px; /* Slider handle height */
+    border-radius: 50%;
+    background: #2196F3; /* Blue background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+/* Circle */
+.chart {
+    position: relative;
+    display: inline-block;
+    color: #999;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px
+  }
+
+  .chart figcaption {
+    padding: 50px 25px;
+    width: 100px;
+    height: 50px;
+    border: 20px solid #f0f0f0;
+    border-radius: 100px;
+    line-height: 50px;
+  }
+
+  .chart img {
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+    background: white;
+  }
+/* END Container styles */
+
+  /* Colors for the circles and positions for the graphics */
+  .html {
+    top: 50px;
+    left: 45px;
+  }
+
+  .html + svg .outer {
+    stroke: #e34f26;
+  }
+
+  .chart svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .outer {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 20;
+    stroke-dasharray: 534;
+    /* transition: stroke-dashoffset 1s; */
+    /* -webkit-animation-play-state: running; */
+
+    /* firefox bug fix - won't rotate at 90deg angles */
+    /* -moz-transform: rotate(-89deg) translateX(-190px); */
+  }
+
+  /* Set the initial values for the animation */
+  .chart[data-percent='100'] .outer {
+    stroke-dashoffset: 0;
+    -webkit-animation: show100 20s;
+    animation: show100 20s;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+  }
+  @-webkit-keyframes show100 {
+    from {
+      stroke-dashoffset: 534;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes show100 {
+    from {
+      stroke-dashoffset: 534;
+    }
+
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+.form-control {
+  font-size: 1.2rem;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+select option {
+  color: rgba(0,0,0,1);
+  background: rgba(255,255,255,1);
+}
+
+select.form-control {
+  color: rgba(0,0,0,1);
+}
+
+.ui-selectmenu-icon.ui-icon {
+  margin-top: 5px!important;
+}
+
+.ui-selectmenu-button.ui-button {
+  padding: 5px!important;
+  background: white!important;
+}
+
+ul.ui-menu { max-height: 200px !important; }
